@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.jidekun.jdk.jdksmart.activity.FirstEnter">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_firsenter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+    </android.support.v4.view.ViewPager>
+
+    <TextView
+        android:id="@+id/tv_firsenter"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="99dp"
+        android:textColor="@color/seletor_first_textview_color"
+        android:background="@drawable/selector_firstenter_textview_precess"
+        android:gravity="center"
+        android:text="点击进入"
+        android:visibility="invisible"
+        android:textSize="20dp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        >
+
+        <LinearLayout
+            android:id="@+id/ll_firstenter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_firstenter_red_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_fiber_manual_record_red_24dp"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>
